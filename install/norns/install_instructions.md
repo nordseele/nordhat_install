@@ -71,8 +71,8 @@ Reminder: the password is ***sleep***
 	sudo apt-get update
     sudo apt-get dist-upgrade -y
     sudo apt-get install vim git bc i2c-tools -y
-    git clone https://github.com/nordseele/nordhat.git
-    cd /home/we/nordhat/install/norns/scripts && ./hat_prepare.sh
+    git clone https://github.com/nordseele/nordhat_install.git
+    cd /home/we/nordhat_install/install/norns/scripts && ./hat_prepare.sh
 
 
 ### Testing the ssd1322
@@ -82,11 +82,11 @@ Now we're going to test the display. If your soldering is fine and if the kernel
     con2fbmap 1 1
 
 ## Norns
-    cd /home/we/nordhat/install/norns/scripts &&./hat_packages.sh
+    cd /home/we/nordhat_install/install/norns/scripts &&./hat_packages.sh
 
 You will be disconnected and the device will reboot. Reconnect in a new window.  
 
-    cd /home/we/nordhat/install/norns/scripts &&./hat_install.sh
+    cd /home/we/nordhat_install/install/norns/scripts &&./hat_install.sh
 Answer ***yes (y)*** to "enable realtime priority"
 
 ## Wifi network  
