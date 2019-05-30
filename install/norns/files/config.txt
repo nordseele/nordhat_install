@@ -65,6 +65,6 @@ systemctl disable hciuart
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=off
 
-dtoverlay=buttons-encoders
+dtoverlay=nord-buttons-encoders
 dtoverlay=ssd1322-spi
 gpio=6,27,23=pu
