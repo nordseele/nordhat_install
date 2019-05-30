@@ -30,8 +30,8 @@ echo | sclang
 
 cd /home/we/norns/sc && ./install.sh
 
-sudo cp -f /home/we/nordhat_install/norns/files/matron.sh /home/we/norns
-sudo cp -f /home/we/nordhat_install/norns/files/config.txt /boot
+sudo cp -f /home/we/nordhat_install/install/norns/files/matron.sh /home/we/norns
+sudo cp -f /home/we/nordhat_install/install/norns/files/config.txt /boot
 
 cd ~
 mkdir dust
