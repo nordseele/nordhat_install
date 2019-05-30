@@ -12,8 +12,8 @@ sudo cp -f /home/we/nordhat_install/install/norns/files/asound.conf /etc
 sudo cp -f /home/we/nordhat_install/install/norns/files/alsa.conf /usr/share/alsa
 
 # compile the overlays (buttons and encoders + ssd1322)
-sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/nord-buttons-encoders.dtbo /home/we/nordhat_install/norns/files/nord-buttons-encoders-overlay.dts
-sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/ssd1322-spi.dtbo /home/we/nordhat_install/norns/files/ssd1322-spi-overlay.dts
+sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/nord-buttons-encoders.dtbo /home/we/nordhat_install/install/norns/files/nord-buttons-encoders-overlay.dts
+sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/ssd1322-spi.dtbo /home/we/nordhat_install/install/norns/files/ssd1322-spi-overlay.dts
 
 cd /home/we/norns-image
 ./setup.sh
