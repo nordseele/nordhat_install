@@ -49,7 +49,7 @@ Enter the following commands in a terminal, edit if needed (country etc).
 `sudo su`  
 `passwd pi` ***(sleep)***  
 `sudo reboot`  
-`ssh keygen -R norns.local`  
+`ssh keygen -R norns.local`  (optionnal - use sudo ssh if you encounter permission issues)
 `sudo passwd root` ***(sleep)***  
 `sudo nano /etc/ssh/sshd_config` ***("PermitRootLogin" needs to be set to "yes" and uncomment the line)***  
 `sudo reboot`  
@@ -84,10 +84,12 @@ Now we're going to test the display. If your soldering is fine and if the kernel
 ## Norns
     cd /home/we/nordhat_install/install/norns/scripts &&./hat_packages.sh
 
-You will be disconnected and the device will reboot. Reconnect in a new window.  
+You will be disconnected and the device will reboot. Wait a few minutes and reconnect in a new window.  
+Answer ***yes (y)*** to "enable realtime priority" etc...
 
     cd /home/we/nordhat_install/install/norns/scripts &&./hat_install.sh
-Answer ***yes (y)*** to "enable realtime priority"
+
+Nordhat will reboot, Norns starts up (sparkles) and it will display an "audio engine error". This is normal.
 
 ## Wifi network  
 *Do this manually, too risky to put it in the script.*
