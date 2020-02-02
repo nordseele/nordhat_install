@@ -28,7 +28,7 @@ Open a terminal and type paste the following commands, one line at a time:
     cd /volumes && ls
     cd boot && touch ssh
 
-Move the **wpa-supplicant.conf** file you've created to the root of the SD card and then unmount the sd card.
+Move the **wpa_supplicant.conf** file you've created to the root of the SD card and then unmount the sd card.
 
 ### Mount the SD card and boot the Raspberry Pi
 
