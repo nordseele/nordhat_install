@@ -12,7 +12,7 @@ Use balenaEtcher - https://www.balena.io/etcher/ for this.
 
 ### SSH configuration
 
- Create a **wpa-supplicant.conf** file for your network and copy the file to the root of the ***boot*** volume
+ Create a **wpa_supplicant.conf** file for your network and copy the file to the root of the ***boot*** volume
 
     country=fr (your country)
     update_config=1
