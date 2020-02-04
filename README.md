@@ -2,7 +2,7 @@
 
 ### 2020 update
 
-#### DO NOT update Norns from the main menu anymore.
+#### DO NOT update Norns from the main menu anymore
 
 https://github.com/okyeron/fates/blob/master/install/norns/Norns_disk_image_install.md
 
