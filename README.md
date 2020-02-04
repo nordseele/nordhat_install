@@ -1,6 +1,8 @@
 # nordhat_install
 
-### 2020 update : Do not use the old install instructions or the files from the "install folder" and DO NOT update Norns from the main menu anymore.
+### 2020 update : 
+
+#### Do not use the old install instructions or the files from the "install folder" and DO NOT update Norns from the main menu anymore.
 
 https://github.com/okyeron/fates/blob/master/install/norns/Norns_disk_image_install.md
 
