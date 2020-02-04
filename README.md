@@ -1,13 +1,13 @@
 # nordhat_install
 
-### 2020 update : 
+### 2020 update :
 
-#### Do not use the old install instructions or the files from the "install folder" and DO NOT update Norns from the main menu anymore.
+#### DO NOT use the old install instructions or the files from the "install folder" and DO NOT update Norns from the main menu anymore.
 
 https://github.com/okyeron/fates/blob/master/install/norns/Norns_disk_image_install.md
 
 
-## You can now install Norns using the Fates disk image provided by Okyeron. You just need to overwrite the config.txt and copy the two overlays provided here.
+## You can now install Norns using the same disk image as Fates. You just need to overwrite the config.txt and copy the two overlays provided here.
 
 1 : Flash the disk image of Fates to the SD Card using Balena Etcher.
 
