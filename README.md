@@ -1,6 +1,6 @@
 # nordhat_install
 
-2020 update : Do not use the old install instructions and DO NOT update Norns from the main menu anymore.
+2020 update : Do not use the old install instructions or the files from the "install folder" and DO NOT update Norns from the main menu anymore.
 
 https://github.com/okyeron/fates/blob/master/install/norns/Norns_disk_image_install.md
 
@@ -22,3 +22,5 @@ You can now install Norns using the Fates disk image provided by Okyeron. You ju
 7 : Ssh to the RPI and sudo raspi-config -> change the wifi country  + timezone, expand the filesystem and reboot.
 
 Done.
+
+Thanks Okyeron ! ;-)
