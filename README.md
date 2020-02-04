@@ -2,7 +2,7 @@
 
 ### 2020 update
 
-#### DO NOT use the old install instructions nor the files contained in the "install folder"
+#### DO NOT use the old install instructions nor the files contained in the "install" folder
 
 #### DO NOT update Norns from the main menu anymore.
 
