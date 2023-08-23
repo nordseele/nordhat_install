@@ -1,4 +1,6 @@
 # nordhat_install
+Hardware: https://github.com/nordseele/nordhat
+
 
 ### 2020 update
 
