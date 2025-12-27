@@ -11,6 +11,9 @@ echo "Backing up originals (only first time)..."
 [ -f "$H.orig" ] || cp "$H" "$H.orig"
 [ -f "$C.orig" ] || cp "$C" "$C.orig"
 
+echo "Commenting dtoverlay in /boot/config.txt (if present)..."
+sudo sed -i 's/^dtoverlay=ssd1322-spi/#dtoverlay=ssd1322-spi/' /boot/config.txt
+
 echo "Patching GPIO in ssd1322.h..."
 sed -i \
   -e 's/#define SSD1322_DC_GPIO_LINE.*/#define SSD1322_DC_GPIO_LINE 24/' \
@@ -27,7 +30,5 @@ cd ~/norns
 ./waf configure
 ./waf build
 
-echo "Restarting matron..."
+echo "Rebooting..."
 sudo reboot
-
-echo "Done"
