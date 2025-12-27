@@ -16,7 +16,9 @@ Ssh to the pi after updating and run the following :
 
 
 wget https://raw.githubusercontent.com/nordseele/nordhat_install/master/fixnordhat.sh
+
 chmod +x fixnordhat.sh
+
 ./fixnordhat.sh
 
 
