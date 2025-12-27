@@ -9,6 +9,17 @@ Hardware: https://github.com/nordseele/nordhat
 https://github.com/okyeron/fates/blob/master/install/norns/Norns_disk_image_install.md
 
 
+### 2025 update
+Black screen after updating to latest 2025 Norns version -> 
+
+Ssh to the pi after updating and run the following : 
+
+
+wget https://raw.githubusercontent.com/nordseele/nordhat_install/master/fixnordhat.sh
+chmod +x fixnordhat.sh
+./fixnordhat.sh
+
+
 ## You can now install Norns using the same disk image as Fates. You just need to overwrite the config.txt and copy the two overlays provided here.
 
 1 : Flash the disk image of Fates to the SD Card using Balena Etcher.
